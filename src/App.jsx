@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Filters from "./components/Filters";
 import Main from "./components/Main";
+import AddNew from "./components/AddNew";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Filters />
         <Main />
       </div>
+      <AddNew />
     </>
   );
 };
