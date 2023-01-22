@@ -15,7 +15,12 @@ const Items = ({ title, excerpt, description, image, amount, total, slug }) => {
         <div className="objetive">
           <strong>{amount}</strong>/{total}
           <div className="ps-slider">&nbsp;</div>
-          <div className="ps-perce">&nbsp;</div>
+          <div
+            className="ps-perce"
+            style={{ width: (amount * 100) / total + "%" }}
+          >
+            &nbsp;
+          </div>
         </div>
         <div className="footer">
           <span>Faltan 3 días</span>

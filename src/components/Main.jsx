@@ -6,7 +6,6 @@ const Main = () => {
   const [apiData, setApiData] = useState([]);
 
   // Api
-
   useEffect(() => {
     axios
       .get("http://localhost:1337/api/items/?populate=*")

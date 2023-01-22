@@ -30,6 +30,9 @@ const Header = () => {
         </li>
       </ul>
       <div className="user-loged">
+        <button className="material-symbols-outlined bell">
+          notifications
+        </button>
         <a href="#" className="user">
           <strong>martin</strong>
           <div
